@@ -18,7 +18,7 @@
 
     --fonte-padrao:Arial,verdana,helvetica,sans-serif;
     --fonte-destaque: 'EB Garamond', serif;
-    --font-android: 'android', cursive;
+    --font-android: 'android',Helvetica, sans-serif;
 }
 *{
     margin: 0px;
@@ -76,6 +76,10 @@ nav > a:hover{
 h1{
     text-align: center;
     color:rgb(19, 15, 15);
+}
+h2 {
+    font-family: var(--font-android), Helvetica, sans-serif;
+    color: rgb(3, 104, 70);
 }
 p#linha02{
     text-align: center;

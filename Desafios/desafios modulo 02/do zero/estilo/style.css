@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 
 @font-face {
-    font-family: 'android';
+    font-family:'android';
     src: url(/idroid.otf) format('opentype');
     font-weight: normal;
 }
@@ -18,7 +18,7 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque:  'EB Garamond', serif;
-    --fonte-android: 'android', cursive;
+    --fonte-android: 'android', sans-serif;
 }
 *{
     margin: 0px;
